@@ -1,0 +1,127 @@
+.prep-time,
+.list,
+.ing,
+.ins,
+.nutrition,
+.value {
+    font-family: "Outfit";
+}
+
+.ing-title,
+.nut-title,
+.ins-title {
+    font-family: "Young Serif";
+    ;
+}
+
+.nutrition-table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #333;
+}
+
+.nutrition-table tr {
+    border-bottom: 1px solid #e0e0e0;
+    line-height: 30px;
+}
+
+.nutrition-table tr:last-child {
+    border-bottom: none;
+}
+
+body {
+    background-color: rgba(243, 229, 216, 255);
+    margin-left: 0;
+    padding: 0;
+}
+
+.content-box {
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+.img-container {
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+.prep-time {
+    background-color: rgba(255, 247, 252, 255);
+    border-radius: 10px;
+    line-height: 2;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.list {
+    margin-bottom: 7px;
+}
+
+.ing-title,
+.ins-title,
+.nut-title {
+    color: rgba(119, 82, 70, 255);
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.left {
+    margin-left: 10px;
+    font-size: small;
+}
+
+.ing,
+.ins {
+    line-height: 2;
+    font-size: small;
+}
+
+h4 {
+    color: rgba(108, 66, 86, 255);
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+
+
+h1 {
+    font-family: "Young Serif";
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+p {
+    font-family: "Outfit";
+    font-size: 10px;
+    line-height: 1.5;
+    margin: 0;
+    color: black;
+}
+
+.nutrition {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin: 0% 4%;
+}
+
+.value {
+    font-weight: bold;
+    color: #6B3E2E;
+}
